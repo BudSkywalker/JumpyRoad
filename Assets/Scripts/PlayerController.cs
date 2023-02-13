@@ -71,6 +71,10 @@ public class PlayerController : MonoBehaviour
         cam.transform.position += cameraSpeed * Time.deltaTime * Vector3.forward;
 
         //TODO Actually do this
-        if (cam.transform.position.z + 2.25f >= transform.position.z) Debug.Log("Game Over!");
+        if (cam.transform.position.z + 2.15f >= transform.position.z)
+        {
+            Debug.Log("Game Over!");
+            GameManager.Instance.state = GameState.GameOver;
+        }
     }
 }

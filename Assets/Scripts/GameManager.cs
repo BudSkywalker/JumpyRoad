@@ -5,7 +5,19 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameState state;
+    private GameState _state;
+    public GameState CurrentState
+    {
+        get
+        {
+            return _state;
+        }
+        set
+        {
+            _state = value;
+            //TODO: Use state controller to toggle UI Panels @Joel
+        }
+    }
     public int score, highscore;
     public UIController uiController;
 

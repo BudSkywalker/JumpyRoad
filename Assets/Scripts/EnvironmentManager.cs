@@ -10,10 +10,21 @@ public class EnvironmentManager : MonoBehaviour
     [SerializeField] private int numberOfPLanes = 4;
 
     private int movesSinceRepop = 0; //the number of moves since the last time the top environment tile was repopulated
+
+    public static EnvironmentManager Instance { get; private set; }
+
     // Start is called before the first frame update
     void Start()
     {
-       // GameObject[] grass
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+        // GameObject[] grass
         environmentPlanes = GameObject.FindGameObjectsWithTag("Grass").Concat(GameObject.FindGameObjectsWithTag("Water").Concat(GameObject.FindGameObjectsWithTag("Road"))).ToArray();
         SpawnStartTerrain();
     }
@@ -21,18 +32,21 @@ public class EnvironmentManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-                TerrainMoves();
-         
-        }
+
     }
 
     // this uses the other functions to automatically move the terrain down until it reaches a lower maximum on the z position, then it will be deleted
     //and a new terrain item will be placed at the top of the viewable area
-    private void TerrainMoves()
+    public void MoveTerrain(bool moveUp = false)
     {
+        if (moveUp)
+        {
+            MoveAllUp();
+            return;
+        }
+        
         MoveAllDown();
+
         movesSinceRepop = movesSinceRepop + 1;
 
         if(movesSinceRepop >= 7)
@@ -54,7 +68,18 @@ public class EnvironmentManager : MonoBehaviour
                 }
             }
     }
-    
+
+    private void MoveAllUp()
+    {
+        for (int i = 0; i < environmentPlanes.Length; i++)
+        {
+            if (environmentPlanes[i].gameObject.activeInHierarchy)
+            {
+                environmentPlanes[i].gameObject.transform.position = new Vector3(environmentPlanes[i].gameObject.transform.position.x, environmentPlanes[i].gameObject.transform.position.y, environmentPlanes[i].gameObject.transform.position.z + 1);
+            }
+        }
+    }
+
     //this finds the bottom terrain and uses the MoveToTop function to remove it from the bottom of the terrain stack
     private void RemoveBottom()
     {

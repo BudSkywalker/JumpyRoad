@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public bool gameOver, paused, onMenu;
+    public GameState state;
     public int score, highscore;
     public UIController uiController;
 
@@ -92,4 +92,12 @@ public class GameManager : MonoBehaviour
     {
 
     }
+}
+
+public enum GameState
+{
+    Menu,
+    Playing,
+    Paused,
+    GameOver
 }

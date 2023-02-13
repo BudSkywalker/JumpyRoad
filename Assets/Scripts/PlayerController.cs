@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
                 _highestScore = _currentScore;
                 //scoreDisplay.text = "Score: " + _highestScore;
                 cam.transform.position = new Vector3(0, 20, -5);
+                transform.position = new Vector3(transform.position.x, 0, 0);
+                EnvironmentManager.Instance.MoveTerrain();
             }
         }
     }
@@ -49,12 +51,12 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
-            EnvironmentManager.Instance.MoveTerrain();
+            transform.position += Vector3.forward;
             CurrentScore++;
         }
         else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            EnvironmentManager.Instance.MoveTerrain(true);
+            transform.position += Vector3.back;
             CurrentScore--;
         }
         else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
@@ -67,5 +69,8 @@ public class PlayerController : MonoBehaviour
         }
 
         cam.transform.position += cameraSpeed * Time.deltaTime * Vector3.forward;
+
+        //TODO Actually do this
+        if (cam.transform.position.z + 2.25f >= transform.position.z) Debug.Log("Game Over!");
     }
 }

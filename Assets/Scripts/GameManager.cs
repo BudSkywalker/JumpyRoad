@@ -10,17 +10,17 @@ public class GameManager : MonoBehaviour
     public UIController uiController;
 
     //Singleton
-    public static GameManager instance { get; private set; }
+    public static GameManager Instance { get; private set; }
     private void Awake()
     {
 
-        if (instance != null && instance != this)
+        if (Instance != null && Instance != this)
         {
             Destroy(this);
         }
         else
         {
-            instance = this;
+            Instance = this;
         }
     }
 

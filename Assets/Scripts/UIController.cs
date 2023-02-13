@@ -15,10 +15,10 @@ public class UIController : MonoBehaviour
     {
         if(SceneManager.GetActiveScene().name == "Menu")
         {
-            GameManager.instance.onMenu = true;
+            GameManager.Instance.state = GameState.Menu;
         }
 
-        GameManager.instance.uiController = this;
+        GameManager.Instance.uiController = this;
     }
 
     public void OnClickPlay()
@@ -44,12 +44,12 @@ public class UIController : MonoBehaviour
 
     public void UpdateScore()
     {
-        scoreText.text = "Recent Score: " + GameManager.instance.score;
+        scoreText.text = "Recent Score: " + GameManager.Instance.score;
     }
 
     public void UpdateHighscore()
     {
-        highscoreText.text = "Highscore: " + GameManager.instance.highscore;
+        highscoreText.text = "Highscore: " + GameManager.Instance.highscore;
     }
 
 }

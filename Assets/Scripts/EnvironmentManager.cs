@@ -7,7 +7,7 @@ public class EnvironmentManager : MonoBehaviour
 {
     [SerializeField] private GameObject environmentTop; //temporary Test
     [SerializeField] private GameObject[] environmentPlanes; //temporary Test
-    [SerializeField] private int numberOfPLanes = 4;
+    [SerializeField] private int numberOfPLanes = 5;
 
     private int movesSinceRepop = 0; //the number of moves since the last time the top environment tile was repopulated
 
@@ -42,6 +42,7 @@ public class EnvironmentManager : MonoBehaviour
         if (moveUp)
         {
             MoveAllUp();
+            movesSinceRepop = movesSinceRepop - 1; 
             return;
         }
         

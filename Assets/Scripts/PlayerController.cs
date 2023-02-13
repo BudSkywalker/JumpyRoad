@@ -51,13 +51,13 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
-            CurrentScore++;
             transform.position += Vector3.forward;
+            CurrentScore++;
         }
         else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            CurrentScore--;
             transform.position += Vector3.back;
+            CurrentScore--;
         }
         else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
@@ -69,5 +69,8 @@ public class PlayerController : MonoBehaviour
         }
 
         cam.transform.position += cameraSpeed * Time.deltaTime * Vector3.forward;
+
+        //TODO Actually do this
+        if (cam.transform.position.z + 2.25f >= transform.position.z) Debug.Log("Game Over!");
     }
 }

@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
                 _highestScore = _currentScore;
                 //scoreDisplay.text = "Score: " + _highestScore;
                 cam.transform.position = new Vector3(0, 20, -5);
+                transform.position = new Vector3(transform.position.x, 0, 0);
+                EnvironmentManager.Instance.MoveTerrain();
             }
         }
     }
@@ -49,13 +51,13 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
-            EnvironmentManager.Instance.MoveTerrain();
             CurrentScore++;
+            transform.position += Vector3.forward;
         }
         else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            EnvironmentManager.Instance.MoveTerrain(true);
             CurrentScore--;
+            transform.position += Vector3.back;
         }
         else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {

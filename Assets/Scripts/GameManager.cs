@@ -16,6 +16,22 @@ public class GameManager : MonoBehaviour
         {
             _state = value;
             //TODO: Use state controller to toggle UI Panels @Joel
+            switch(CurrentState)
+            {
+                case GameState.Menu:
+
+                    break;
+                case GameState.Playing:
+
+                    break;
+                case GameState.Paused:
+
+                    break;
+                case GameState.GameOver:
+
+                    break;
+                default: break;
+            }
         }
     }
     public int score, highscore;
@@ -25,7 +41,6 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
     private void Awake()
     {
-
         if (Instance != null && Instance != this)
         {
             Destroy(this);
@@ -38,6 +53,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        /*
         if(Input.GetMouseButtonDown(0))
         {
             AddToScore(1);
@@ -47,6 +63,7 @@ public class GameManager : MonoBehaviour
         {
             ResetGame();
         }
+        */
     }
 
     //Game states

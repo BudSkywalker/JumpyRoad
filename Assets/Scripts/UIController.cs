@@ -7,33 +7,48 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class UIController : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI scoreText;
-    [SerializeField] TextMeshProUGUI highscoreText;
+    [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private TextMeshProUGUI highscoreText;
+    [SerializeField] private GameObject optionsCanvas;
 
     // Start is called before the first frame update
     void Start()
     {
-        if(SceneManager.GetActiveScene().name == "Menu")
+
+        if(SceneManager.GetActiveScene().name == "Menu" || SceneManager.GetActiveScene().name == "Credits")
         {
-            GameManager.Instance.state = GameState.Menu;
+            GameManager.Instance.CurrentState = GameState.Menu;
         }
 
         GameManager.Instance.uiController = this;
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            optionsCanvas.SetActive(!optionsCanvas.activeSelf);
+        }
+    }
+
     public void OnClickPlay()
     {
-
+        SceneManager.LoadScene("SampleScene");
     }
 
     public void OnClickOptions()
     {
-
+        //GameManager.Instance.PauseGame();
     }
 
     public void OnClickCredits()
     {
+        SceneManager.LoadScene("Credits");
+    }
 
+    public void OnClickMenu()
+    {
+        SceneManager.LoadScene("Menu");
     }
 
     public void OnClickQuit()

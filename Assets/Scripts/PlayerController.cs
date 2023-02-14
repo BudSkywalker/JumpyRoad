@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
         if (cam.transform.position.z + 2.15f >= transform.position.z)
         {
             Debug.Log("Game Over!");
-            GameManager.Instance.state = GameState.GameOver;
+            GameManager.Instance.CurrentState = GameState.GameOver;
         }
     }
 }

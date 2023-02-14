@@ -7,10 +7,11 @@ public class EnvironmentManager : MonoBehaviour
 {
     [SerializeField] private GameObject environmentTop; //temporary Test
     [SerializeField] private GameObject[] environmentPlanes; //temporary Test
-    [SerializeField] private int numberOfPLanes = 5;
+    [SerializeField] private int numberOfPLanes = 4;
 
     private int movesSinceRepop = 0; //the number of moves since the last time the top environment tile was repopulated
 
+    List<GameObject> unusedTiles = new();
     public static EnvironmentManager Instance { get; private set; }
 
     // Start is called before the first frame update
@@ -125,15 +126,26 @@ public class EnvironmentManager : MonoBehaviour
     private void SpawnStartTerrain()
     {
         int unitsDown = 0;
+        int inactivePlane = 0;
         for (int i = 0; i < environmentPlanes.Length; i++)
-            {
-                environmentPlanes[i].gameObject.SetActive(false);
-            }
+        {
+            environmentPlanes[i].gameObject.SetActive(false);
+            inactivePlane++;
+        }
+
+        unusedTiles.AddRange(environmentPlanes);
 
         for(int i = 0; i< numberOfPLanes; i++)
         {
-            bool anotherActivated = false;
-            while(anotherActivated == false) //for loop (research linq) 
+            int j = Random.Range(0, unusedTiles.Count);
+            unusedTiles[j].gameObject.transform.position = new Vector3(unusedTiles[j].gameObject.transform.position.x, unusedTiles[i].gameObject.transform.position.y, unusedTiles[i].gameObject.transform.position.z - unitsDown);
+            unusedTiles[j].gameObject.SetActive(true);
+            unitsDown = unitsDown + 7;
+            unusedTiles.RemoveAt(j);
+
+            //ORIGINAL WAY
+            /*bool anotherActivated = false;
+            while(anotherActivated == false) //for loop and list
             {
                 int j = Random.Range(0, environmentPlanes.Length);   
                 if (environmentPlanes[j].gameObject.activeInHierarchy == false)  //need to remove from options by remove at 
@@ -144,6 +156,7 @@ public class EnvironmentManager : MonoBehaviour
                  anotherActivated = true;
                 }
             }
+            */
 
         }
     }

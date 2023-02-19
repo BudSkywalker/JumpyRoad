@@ -116,6 +116,11 @@ public class EnvironmentManager : MonoBehaviour
             if (environmentPlanes[i].gameObject.activeInHierarchy == false)
             {
                 environmentPlanes[i].gameObject.SetActive(true);
+                if(environmentPlanes[i].gameObject.tag == "Grass")
+                {
+                    environmentPlanes[i].GetComponent<TreeManager>().FindAllTrees();
+                    environmentPlanes[i].GetComponent<TreeManager>().SpawnTrees();
+                }
                 nextActivated = true;
             }
         }
@@ -140,6 +145,11 @@ public class EnvironmentManager : MonoBehaviour
             int j = Random.Range(0, unusedTiles.Count);
             unusedTiles[j].gameObject.transform.position = new Vector3(unusedTiles[j].gameObject.transform.position.x, unusedTiles[i].gameObject.transform.position.y, unusedTiles[i].gameObject.transform.position.z - unitsDown);
             unusedTiles[j].gameObject.SetActive(true);
+            if(unusedTiles[j].gameObject.tag == "Grass")
+              {
+                   unusedTiles[j].GetComponent<TreeManager>().FindAllTrees();
+                   unusedTiles[j].GetComponent<TreeManager>().SpawnTrees();
+            }
             unitsDown = unitsDown + 7;
             unusedTiles.RemoveAt(j);
 

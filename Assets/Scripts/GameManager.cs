@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class GameManager : MonoBehaviour
 {
@@ -34,8 +35,12 @@ public class GameManager : MonoBehaviour
             }
         }
     }
-    public int score, highscore;
+
     public UIController uiController;
+
+    public float musicVolume = 0.55f;
+    public float sfxVolume = 0.55f;
+    public bool hasFullscreen = true;
 
     //Singleton
     public static GameManager Instance { get; private set; }
@@ -48,22 +53,8 @@ public class GameManager : MonoBehaviour
         else
         {
             Instance = this;
+            DontDestroyOnLoad(this);
         }
-    }
-
-    private void Update()
-    {
-        /*
-        if(Input.GetMouseButtonDown(0))
-        {
-            AddToScore(1);
-        }
-
-        if(Input.GetKeyDown(KeyCode.R))
-        {
-            ResetGame();
-        }
-        */
     }
 
     //Game states
@@ -79,11 +70,7 @@ public class GameManager : MonoBehaviour
 
     public void ResetGame()
     {
-        CheckHighscore();
-        uiController.UpdateHighscore();
 
-        score = 0;
-        uiController.UpdateScore();
     }
 
     public void PauseGame()
@@ -95,32 +82,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0.0f;
     }
-
-    //Score system
-    private void CheckHighscore()
-    {
-        if(highscore <= score)
-        {
-            highscore = score;
-        }
-    }
-
-    public void AddToScore(int addNum)
-    {
-        score = score + addNum;
-        uiController.UpdateScore();
-    }
-
-    //Settings
-    public void SetVolume(float volumeNum)
-    {
-
-    }
-
-    public void Fullscreen(bool isFullscreen)
-    {
-
-    }
+  
 }
 
 public enum GameState

@@ -7,11 +7,18 @@ public class CarManager : MonoBehaviour
 {
     [SerializeField] List<GameObject> rightSpawners = new List<GameObject>();
     [SerializeField] List<GameObject> leftSpawners = new List<GameObject>();
-    public List<GameObject> carPool = new List<GameObject>();
-    public GameObject vehicle;
+    [SerializeField] List<GameObject> carPool = new List<GameObject>();
+    List<GameObject> activeCarsList = new List<GameObject>();
+    private GameObject carPoolObject;
+
+    public bool managerIsReady = false;
+    public float despawnDistance;
 
     private void Start()
     {
+        despawnDistance = rightSpawners[0].transform.position.x;
+        carPoolObject = GameObject.Find("CarPool");
+
         //Grab all the cars in the car pool and set them inactive by default
         foreach(Transform car in GameObject.Find("CarPool").transform)
         {
@@ -29,10 +36,11 @@ public class CarManager : MonoBehaviour
             spawner.SetActive(false);
         }
 
-        InvokeRepeating("ChooseActiveSpawner", 1, 15);
+        ChooseActiveSpawners();
     }
 
-    private void ChooseActiveSpawner()
+    //Randomize which spawns are active
+    private void ChooseActiveSpawners()
     {
         int randomNum = 0;
 
@@ -52,10 +60,14 @@ public class CarManager : MonoBehaviour
                 leftSpawners[x].SetActive(true);
             }
         }
+
+        managerIsReady = true;
     }
 
     public void SpawnCar(GameObject spawner, bool left, bool right)
     {
+
+        //Find an inactive car in the car pool
         GameObject activeCar = null;
 
         foreach (GameObject car in carPool)
@@ -67,6 +79,7 @@ public class CarManager : MonoBehaviour
             }
         }
 
+        //Set it going left or right
         if(left)
         {
             activeCar.tag = "Left";
@@ -76,8 +89,43 @@ public class CarManager : MonoBehaviour
             activeCar.tag = "Right";
         }
 
+        //Activate the car and set its parent and position
         activeCar.transform.position = spawner.transform.position;
         activeCar.transform.parent = gameObject.transform;
         activeCar.SetActive(true);
+
+        activeCarsList.Add(activeCar);
+    }
+
+    public void RemoveCar(GameObject car)
+    {
+        //Deactivate the car and reset its parent and position
+        car.SetActive(false);
+        car.transform.parent = carPoolObject.transform;
+        car.transform.position = carPoolObject.transform.position;
+
+        activeCarsList.Remove(car);
+    }
+
+    public void RemoveActiveCars()
+    {
+        foreach(GameObject car in activeCarsList)
+        {
+            car.SetActive(false);
+            car.transform.parent = carPoolObject.transform;
+            car.transform.position = carPoolObject.transform.position;
+        }
+
+        activeCarsList.Clear();
+
+        foreach(GameObject spawner in leftSpawners)
+        {
+            spawner.GetComponent<CarSpawner>().beginSpawning = true;
+        }
+
+        foreach (GameObject spawner in rightSpawners)
+        {
+            spawner.GetComponent<CarSpawner>().beginSpawning = true;
+        }
     }
 }

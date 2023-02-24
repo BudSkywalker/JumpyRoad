@@ -93,12 +93,19 @@ public class EnvironmentManager : MonoBehaviour
                     bottomObject = environmentPlanes[i];
                 }
             }
-            MoveToTop(bottomObject);
+
+        if (bottomObject.CompareTag("Road"))
+        {
+            bottomObject.GetComponent<CarManager>().RemoveActiveCars();
+        }
+
+        MoveToTop(bottomObject);
     }
 
     //this moves removes the bottom terrain and hides it at the top of the terrain tool to be spawned later
     private void MoveToTop(GameObject nextInSpawn)
     {
+
         nextInSpawn.SetActive(false);
         nextInSpawn.gameObject.transform.position = environmentTop.transform.position;
 

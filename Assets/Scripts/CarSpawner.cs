@@ -6,28 +6,29 @@ public class CarSpawner : MonoBehaviour
 {
     bool left, right = false;
     CarManager carManager;
-    List<GameObject> carPool = new List<GameObject>();
 
-    bool beginSpawning = true;
+    public bool beginSpawning = true;
 
     private void Start()
     {
         carManager = transform.parent.GetComponent<CarManager>();
 
-        if(gameObject.CompareTag("Right"))
+        if(gameObject.CompareTag("Left"))
         {
-            right = true;
+            left = true;
         }
         else
         {
-            left = true;
+            right = true;
         }
     }
 
     private void Update()
     {
-        if(beginSpawning && gameObject.activeSelf)
+        print(beginSpawning + " begin spawning");
+        if(beginSpawning && carManager.managerIsReady)
         {
+            print(carManager.managerIsReady);
             StartCoroutine(SpawnCar());
         }
         
@@ -37,7 +38,7 @@ public class CarSpawner : MonoBehaviour
     {
         beginSpawning = false;
         carManager.SpawnCar(gameObject, right, left);
-        yield return new WaitForSeconds(Random.Range(3, 6));
+        yield return new WaitForSeconds(Random.Range(1, 4));
         beginSpawning = true;
     }
 }

@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CarSpawner : MonoBehaviour
+public class HazardSpawner : MonoBehaviour
 {
     bool left, right = false;
-    CarManager carManager;
+    public int speed;
+    HazardManager hazardManager;
 
     public bool beginSpawning = true;
 
     private void Start()
     {
-        carManager = transform.parent.GetComponent<CarManager>();
+        hazardManager = transform.parent.GetComponent<HazardManager>();
 
         if(gameObject.CompareTag("Left"))
         {
@@ -25,19 +26,17 @@ public class CarSpawner : MonoBehaviour
 
     private void Update()
     {
-        print(beginSpawning + " begin spawning");
-        if(beginSpawning && carManager.managerIsReady)
+        if(beginSpawning && hazardManager.managerIsReady)
         {
-            print(carManager.managerIsReady);
-            StartCoroutine(SpawnCar());
+            StartCoroutine(ReadySpawnHazard());
         }
         
     }
 
-    IEnumerator SpawnCar()
+    IEnumerator ReadySpawnHazard()
     {
         beginSpawning = false;
-        carManager.SpawnCar(gameObject, right, left);
+        hazardManager.SpawnHazard(gameObject, right, left, speed);
         yield return new WaitForSeconds(Random.Range(1, 4));
         beginSpawning = true;
     }

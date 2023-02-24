@@ -94,9 +94,9 @@ public class EnvironmentManager : MonoBehaviour
                 }
             }
 
-        if (bottomObject.CompareTag("Road"))
+        if (bottomObject.CompareTag("Road") || bottomObject.CompareTag("Water"))
         {
-            bottomObject.GetComponent<CarManager>().RemoveActiveCars();
+            bottomObject.GetComponent<HazardManager>().RemoveActiveHazards();
         }
 
         MoveToTop(bottomObject);
@@ -128,6 +128,10 @@ public class EnvironmentManager : MonoBehaviour
                     environmentPlanes[i].GetComponent<TreeManager>().FindAllTrees();
                     environmentPlanes[i].GetComponent<TreeManager>().SpawnTrees();
                 }
+                else if(environmentPlanes[i].CompareTag("Road") || environmentPlanes[i].CompareTag("Water"))
+                {
+                    environmentPlanes[i].GetComponent<HazardManager>().ChooseActiveSpawners();
+                }
                 nextActivated = true;
             }
         }
@@ -153,7 +157,7 @@ public class EnvironmentManager : MonoBehaviour
             unusedTiles[j].gameObject.transform.position = new Vector3(unusedTiles[j].gameObject.transform.position.x, unusedTiles[i].gameObject.transform.position.y, unusedTiles[i].gameObject.transform.position.z - unitsDown);
             unusedTiles[j].gameObject.SetActive(true);
             if(unusedTiles[j].gameObject.tag == "Grass")
-              {
+            {
                    unusedTiles[j].GetComponent<TreeManager>().FindAllTrees();
                    unusedTiles[j].GetComponent<TreeManager>().SpawnTrees();
             }

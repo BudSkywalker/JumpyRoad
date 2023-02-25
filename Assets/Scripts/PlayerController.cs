@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
 {
     private Camera cam;
 
+    [SerializeField] private LayerMask obstacles;
     [SerializeField] private TMP_Text scoreDisplay;
     [SerializeField] private float cameraSpeed = 0.5f;
 
@@ -33,7 +34,7 @@ public class PlayerController : MonoBehaviour
                 _highestScore = _currentScore;
                 //scoreDisplay.text = "Score: " + _highestScore;
                 cam.transform.position = new Vector3(0, 20, -5);
-                transform.position = new Vector3(transform.position.x, 0, 0);
+                transform.position = new Vector3(transform.position.x, 0.5f, 0);
                 EnvironmentManager.Instance.MoveTerrain();
             }
         }
@@ -51,21 +52,27 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
-            transform.position += Vector3.forward;
-            CurrentScore++;
+            if (Physics.OverlapBox(transform.position + Vector3.forward, Vector3.one / 2, Quaternion.identity, obstacles).Length == 0)
+            {
+                transform.position += Vector3.forward;
+                CurrentScore++;
+            }
         }
         else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            transform.position += Vector3.back;
-            CurrentScore--;
+            if (Physics.OverlapBox(transform.position + Vector3.back, Vector3.one / 2, Quaternion.identity, obstacles).Length == 0)
+            {
+                transform.position += Vector3.back;
+                CurrentScore--;
+            }
         }
         else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            if(transform.position.x > -6) transform.position += Vector3.left;
+            if(Physics.OverlapBox(transform.position + Vector3.left, Vector3.one / 2, Quaternion.identity, obstacles).Length == 0 && transform.position.x > -6) transform.position += Vector3.left;
         }
         else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
-            if (transform.position.x < 6) transform.position += Vector3.right;
+            if (Physics.OverlapBox(transform.position + Vector3.right, Vector3.one / 2, Quaternion.identity, obstacles).Length == 0 && transform.position.x < 6) transform.position += Vector3.right;
         }
 
         cam.transform.position += cameraSpeed * Time.deltaTime * Vector3.forward;
@@ -74,7 +81,7 @@ public class PlayerController : MonoBehaviour
         if (cam.transform.position.z + 2.15f >= transform.position.z)
         {
             Debug.Log("Game Over!");
-            GameManager.Instance.CurrentState = GameState.GameOver;
+            //GameManager.Instance.CurrentState = GameState.GameOver;
         }
     }
 }

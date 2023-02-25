@@ -36,9 +36,9 @@ public class TreeManager : MonoBehaviour
         {
             for(int j = 0; j < height; j++)
             {
-            childTrees[i,j] = this.gameObject.transform.GetChild(currentTree).gameObject;
-            this.gameObject.transform.GetChild(currentTree).gameObject.SetActive(false);
-            currentTree++;
+                childTrees[i,j] = this.gameObject.transform.GetChild(currentTree).gameObject;
+                this.gameObject.transform.GetChild(currentTree).gameObject.SetActive(false);
+                currentTree++;
             }
         }
 

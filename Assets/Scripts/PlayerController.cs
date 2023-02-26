@@ -10,6 +10,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using System.Linq;
 
 public class PlayerController : MonoBehaviour
 {
@@ -77,11 +78,25 @@ public class PlayerController : MonoBehaviour
 
         cam.transform.position += cameraSpeed * Time.deltaTime * Vector3.forward;
 
-        //TODO Actually do this
-        if (cam.transform.position.z + 2.15f >= transform.position.z)
+        //Test Game Over States
+        Collider[] underMeColliders = Physics.OverlapBox(transform.position + Vector3.down, Vector3.one);
+        if (cam.transform.position.z + 2.15f >= transform.position.z || (
+            //Water
+            underMeColliders.Any(x => x.CompareTag("Water")) && !underMeColliders.Any(x => x.CompareTag("Left") || x.CompareTag("Right"))
+            ))
         {
             Debug.Log("Game Over!");
-            //GameManager.Instance.CurrentState = GameState.GameOver;
+            GameManager.Instance.CurrentState = GameState.GameOver;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        HazardBehaviour hb = other.GetComponent<HazardBehaviour>();
+        if (hb != null && hb.isCar)
+        {
+            Debug.Log("Game Over!");
+            GameManager.Instance.CurrentState = GameState.GameOver;
         }
     }
 }

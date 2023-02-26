@@ -56,33 +56,6 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(this);
         }
     }
-
-    //Game states
-    public void YouWin()
-    {
-
-    }
-
-    public void YouLose()
-    {
-
-    }
-
-    public void ResetGame()
-    {
-
-    }
-
-    public void PauseGame()
-    {
-        Time.timeScale = 1.0f;
-    }
-
-    public void UnpauseGame()
-    {
-        Time.timeScale = 0.0f;
-    }
-  
 }
 
 public enum GameState

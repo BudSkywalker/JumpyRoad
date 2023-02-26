@@ -7,7 +7,7 @@ public class HazardBehaviour : MonoBehaviour
 {
     private int carSpeed = 5;
     public int logSpeed = 4;
-    [SerializeField] private bool isCar;
+    public bool isCar;
     HazardManager hazardManager;
     private float checkDistance = 8;
 

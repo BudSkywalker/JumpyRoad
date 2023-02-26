@@ -677,6 +677,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &8228838
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8228835}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &10244440
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1496,6 +1517,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1503,6 +1528,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2042006079}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2042006080}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &28587842 stripped
 GameObject:
@@ -3132,6 +3160,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3139,6 +3171,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1756046089}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1756046090}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1001 &78809802
 PrefabInstance:
@@ -3758,6 +3793,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &92832331
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92832328}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &93214475 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -4437,6 +4493,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4444,6 +4504,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8228837}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8228838}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1001 &116118745
 PrefabInstance:
@@ -5175,6 +5238,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5182,6 +5249,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 156660143}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 156660144}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &156660141 stripped
 Transform:
@@ -5207,6 +5277,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &156660144
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156660142}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &160473180 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -5548,6 +5639,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5555,6 +5650,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2132811089}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2132811090}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1001 &186181405
 PrefabInstance:
@@ -5697,6 +5795,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5704,6 +5806,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 189192395}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 189192396}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &189192393 stripped
 Transform:
@@ -5729,6 +5834,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &189192396
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189192394}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &190452114 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -5816,6 +5942,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5823,6 +5953,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 287273810}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 287273811}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &192792957
 GameObject:
@@ -6060,6 +6193,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6067,6 +6204,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 195140963}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 195140964}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &195140961 stripped
 Transform:
@@ -6092,6 +6232,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &195140964
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195140962}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &197079889 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -6582,6 +6743,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6589,6 +6754,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 212362494}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 212362495}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &212362492 stripped
 Transform:
@@ -6614,6 +6782,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &212362495
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212362493}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &213056837 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -6701,6 +6890,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6708,6 +6901,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 213396374}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 213396375}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &213396372 stripped
 Transform:
@@ -6733,6 +6929,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &213396375
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213396373}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &213982810 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -7234,6 +7451,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7241,6 +7462,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 229402341}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 229402342}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &229402339 stripped
 Transform:
@@ -7266,6 +7490,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &229402342
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229402340}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &232418659
 GameObject:
   m_ObjectHideFlags: 0
@@ -7756,6 +8001,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7763,6 +8012,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 245846175}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 245846176}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &245846173 stripped
 Transform:
@@ -7788,6 +8040,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &245846176
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245846174}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &246355831
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8180,6 +8453,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8187,6 +8464,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 276555388}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 276555389}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &276555386 stripped
 Transform:
@@ -8212,6 +8492,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &276555389
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276555387}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &276915754 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -8520,6 +8821,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &287273811
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287273808}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &288231339
 GameObject:
   m_ObjectHideFlags: 0
@@ -8648,6 +8970,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8655,6 +8981,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 288418007}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 288418008}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &288418005 stripped
 Transform:
@@ -8680,6 +9009,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &288418008
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288418006}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &288567491 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -8894,6 +9244,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8901,6 +9255,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 301863878}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 301863879}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &301863876 stripped
 Transform:
@@ -8926,6 +9283,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &301863879
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301863877}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &302861773 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -10360,6 +10738,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10367,6 +10749,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 353198426}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 353198427}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &353198424 stripped
 Transform:
@@ -10392,6 +10777,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &353198427
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353198425}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &354329186
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10452,6 +10858,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10459,6 +10869,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 354329189}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 354329190}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &354329187 stripped
 Transform:
@@ -10484,6 +10897,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &354329190
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354329188}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &354329581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10706,6 +11140,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10713,6 +11151,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 358370892}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 358370893}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &358370890 stripped
 Transform:
@@ -10738,6 +11179,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &358370893
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358370891}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &360105884 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -10979,6 +11441,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &365392057
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365392054}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &366762940 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -11066,6 +11549,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11073,6 +11560,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 549079265}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 549079266}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &370377093 stripped
 GameObject:
@@ -12802,6 +13292,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12809,6 +13303,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 439569665}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 439569666}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &439569663 stripped
 Transform:
@@ -12834,6 +13331,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &439569666
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439569664}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &440733861 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -13731,6 +14249,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13738,6 +14260,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 462852209}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 462852210}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &462852207 stripped
 Transform:
@@ -13763,6 +14288,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &462852210
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462852208}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &470846469
 GameObject:
   m_ObjectHideFlags: 0
@@ -14779,6 +15325,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14786,6 +15336,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 507038790}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 507038791}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &507038788 stripped
 Transform:
@@ -14811,6 +15364,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &507038791
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507038789}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &508851199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15128,6 +15702,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15135,6 +15713,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1742324722}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1742324723}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1001 &510998310
 PrefabInstance:
@@ -15304,6 +15885,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15311,6 +15896,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 516787937}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 516787938}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &516787935 stripped
 Transform:
@@ -15336,6 +15924,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &516787938
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516787936}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &517164577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15968,6 +16577,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &549079266
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549079263}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &553594355
 GameObject:
   m_ObjectHideFlags: 0
@@ -16492,6 +17122,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &564213360
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564213357}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &567276883
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17652,6 +18303,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17659,6 +18314,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 611194942}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 611194943}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &611194940 stripped
 Transform:
@@ -17684,6 +18342,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &611194943
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611194941}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &613785249 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -18446,6 +19125,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18453,6 +19136,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 92832330}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 92832331}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1001 &628361834
 PrefabInstance:
@@ -18798,6 +19484,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18805,6 +19495,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 636009520}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 636009521}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &636009518 stripped
 Transform:
@@ -18830,6 +19523,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &636009521
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636009519}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &638376180
 GameObject:
   m_ObjectHideFlags: 0
@@ -19947,6 +20661,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &657822347
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657822344}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &658678383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20491,6 +21226,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20498,6 +21237,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 673835589}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 673835590}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &673835587 stripped
 Transform:
@@ -20523,6 +21265,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &673835590
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673835588}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &674753739 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -21501,6 +22264,8 @@ GameObject:
   m_Component:
   - component: {fileID: 723692377}
   - component: {fileID: 723692378}
+  - component: {fileID: 723692379}
+  - component: {fileID: 723692380}
   m_Layer: 0
   m_Name: PlayerCharFORSCALE
   m_TagString: Untagged
@@ -21541,6 +22306,54 @@ MonoBehaviour:
     m_Bits: 256
   scoreDisplay: {fileID: 0}
   cameraSpeed: 0.5
+--- !u!65 &723692379
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723692376}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5, y: 0.5, z: 0.5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &723692380
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723692376}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &726363742 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -22073,6 +22886,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &740577595
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740577592}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &742489771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22489,6 +23323,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &755672521
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755672518}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &773124989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22698,6 +23553,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22705,6 +23564,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 781191656}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 781191657}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &781191654 stripped
 Transform:
@@ -22730,6 +23592,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &781191657
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781191655}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &782404930
 GameObject:
   m_ObjectHideFlags: 0
@@ -23042,6 +23925,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23049,6 +23936,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1820133031}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1820133032}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &784266430
 GameObject:
@@ -23250,6 +24140,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &791054559
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791054556}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &791263829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23391,6 +24302,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23398,6 +24313,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 792817495}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 792817496}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &792817493 stripped
 Transform:
@@ -23423,6 +24341,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &792817496
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792817494}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &793413408 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -23510,6 +24449,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23517,6 +24460,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 793427317}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 793427318}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &793427315 stripped
 Transform:
@@ -23542,6 +24488,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &793427318
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793427316}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &799107404 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -23656,6 +24623,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23663,6 +24634,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 803449272}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 803449273}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &803449270 stripped
 Transform:
@@ -23688,6 +24662,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &803449273
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803449271}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &806492506 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -23775,6 +24770,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23782,6 +24781,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1244965243}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1244965244}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1001 &810574339
 PrefabInstance:
@@ -24595,6 +25597,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24602,6 +25608,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 859268153}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 859268154}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1001 &838342818
 PrefabInstance:
@@ -24906,6 +25915,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24913,6 +25926,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 839704235}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 839704236}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &839704233 stripped
 Transform:
@@ -24938,6 +25954,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &839704236
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839704234}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &846767768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25570,6 +26607,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &859268154
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859268151}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &861207052 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -25981,6 +27039,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25988,6 +27050,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 867876996}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 867876997}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &867876994 stripped
 Transform:
@@ -26013,6 +27078,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &867876997
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867876995}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &869155148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26154,6 +27240,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26161,6 +27251,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 871247543}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 871247544}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &871247541 stripped
 Transform:
@@ -26186,6 +27279,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &871247544
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871247542}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &872199506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26246,6 +27360,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26253,6 +27371,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 872199509}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 872199510}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &872199507 stripped
 Transform:
@@ -26278,6 +27399,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &872199510
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872199508}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &875450057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26649,6 +27791,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26656,6 +27802,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 889381676}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 889381677}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &884834015
 GameObject:
@@ -26898,6 +28047,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &889381677
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889381674}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &891323622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26958,6 +28128,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26965,6 +28139,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 891323625}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 891323626}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &891323623 stripped
 Transform:
@@ -26990,6 +28167,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &891323626
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891323624}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &891363610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27226,6 +28424,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27233,6 +28435,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 895630049}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 895630050}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &895630047 stripped
 Transform:
@@ -27258,6 +28463,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &895630050
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895630048}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &896757508
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27572,6 +28798,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27579,6 +28809,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 902535711}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 902535712}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &902535709 stripped
 Transform:
@@ -27604,6 +28837,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &902535712
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902535710}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &904084620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28591,6 +29845,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28598,6 +29856,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 930436179}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 930436180}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &930436177 stripped
 Transform:
@@ -28623,6 +29884,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &930436180
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930436178}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &933727700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28856,6 +30138,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28863,6 +30149,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 939818133}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 939818134}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &939818131 stripped
 Transform:
@@ -28888,6 +30177,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &939818134
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939818132}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &940081335 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -29002,6 +30312,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29009,6 +30323,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1885666179}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1885666180}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &942493189 stripped
 GameObject:
@@ -29394,6 +30711,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29401,6 +30722,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 564213359}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 564213360}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &967361224
 GameObject:
@@ -29530,6 +30854,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29537,6 +30865,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 791054558}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 791054559}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &972374241 stripped
 GameObject:
@@ -30336,6 +31667,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30343,6 +31678,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1644929786}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1644929787}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &999916454
 GameObject:
@@ -30540,6 +31878,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30547,6 +31889,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1003145572}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1003145573}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1003145570 stripped
 Transform:
@@ -30572,6 +31917,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1003145573
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003145571}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1006363278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30794,6 +32160,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30801,6 +32171,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1008005049}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1008005050}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1008005047 stripped
 Transform:
@@ -30826,6 +32199,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1008005050
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008005048}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1010340483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31329,6 +32723,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31336,6 +32734,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1021662256}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1021662257}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1021662254 stripped
 Transform:
@@ -31361,6 +32762,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1021662257
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021662255}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1022071885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32240,6 +33662,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32247,6 +33673,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1057376027}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1057376028}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1057376025 stripped
 Transform:
@@ -32272,6 +33701,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1057376028
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057376026}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1058579013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32413,6 +33863,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32420,6 +33874,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1546180459}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1546180460}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1001 &1058939097
 PrefabInstance:
@@ -32537,6 +33994,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1059111380
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059111377}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1060533775 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -32624,6 +34102,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32631,6 +34113,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1061229051}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1061229052}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1061229049 stripped
 Transform:
@@ -32656,6 +34141,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1061229052
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061229050}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1066198282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32891,6 +34397,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1073284705
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073284702}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1078294401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33702,6 +35229,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33709,6 +35240,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1102355193}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1102355194}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1102355191 stripped
 Transform:
@@ -33734,6 +35268,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1102355194
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102355192}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1105174346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33902,6 +35457,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33909,6 +35468,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1927908763}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1927908764}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &1106680635 stripped
 GameObject:
@@ -34644,6 +36206,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34651,6 +36217,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1631378240}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1631378241}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &1132375131 stripped
 GameObject:
@@ -34730,6 +36299,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1139393543
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139393540}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1140480577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35017,6 +36607,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35024,6 +36618,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1160760568}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1160760569}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &1160760566 stripped
 GameObject:
@@ -35049,6 +36646,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1160760569
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160760566}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1164625108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36616,6 +38234,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36623,6 +38245,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1213068451}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1213068452}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1213068449 stripped
 Transform:
@@ -36648,6 +38273,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1213068452
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213068450}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1215295961 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -37338,6 +38984,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37345,6 +38995,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1445986168}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1445986169}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1001 &1231846116
 PrefabInstance:
@@ -37679,6 +39332,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1244965244
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244965241}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1247142617 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -38115,6 +39789,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38122,6 +39800,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1073284704}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1073284705}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &1257717612 stripped
 GameObject:
@@ -38491,6 +40172,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38498,6 +40183,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1270747473}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1270747474}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1270747471 stripped
 Transform:
@@ -38523,6 +40211,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1270747474
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270747472}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1273295912
 GameObject:
   m_ObjectHideFlags: 0
@@ -38893,6 +40602,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38900,6 +40613,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1634591337}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1634591338}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &1288834711 stripped
 GameObject:
@@ -39164,6 +40880,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39171,6 +40891,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1298064491}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1298064492}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1298064489 stripped
 Transform:
@@ -39196,6 +40919,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1298064492
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298064490}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1300484108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41324,6 +43068,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41331,6 +43079,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1371055348}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1371055349}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1371055346 stripped
 Transform:
@@ -41356,6 +43107,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1371055349
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371055347}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1372725832 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -41756,6 +43528,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41763,6 +43539,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1389829408}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1389829409}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1389829406 stripped
 Transform:
@@ -41788,6 +43567,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1389829409
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389829407}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1393662116
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41848,6 +43648,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41855,6 +43659,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1393662119}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1393662120}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1393662117 stripped
 Transform:
@@ -41880,6 +43687,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1393662120
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393662118}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1394581781 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -42426,6 +44254,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -42433,6 +44265,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1412103164}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1412103165}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1412103162 stripped
 Transform:
@@ -42458,6 +44293,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1412103165
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412103163}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1413599291
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43263,6 +45119,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1445986169
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445986166}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1447101548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44744,6 +46621,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44751,6 +46632,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1495890376}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1495890377}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1495890374 stripped
 Transform:
@@ -44776,6 +46660,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1495890377
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495890375}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1498390141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44836,6 +46741,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44843,6 +46752,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1498390144}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1498390145}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1498390142 stripped
 Transform:
@@ -44868,6 +46780,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1498390145
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498390143}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1501680109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45020,6 +46953,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -45027,6 +46964,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1504202250}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1504202251}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1504202248 stripped
 Transform:
@@ -45052,6 +46992,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1504202251
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504202249}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1504265427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45339,6 +47300,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -45346,6 +47311,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1516147593}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1516147594}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1516147591 stripped
 Transform:
@@ -45371,6 +47339,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1516147594
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516147592}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1519312741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45431,6 +47420,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -45438,6 +47431,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1519312744}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1519312745}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1519312742 stripped
 Transform:
@@ -45463,6 +47459,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1519312745
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519312743}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1520752319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45631,6 +47648,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -45638,6 +47659,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1530839906}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1530839907}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1530839904 stripped
 Transform:
@@ -45663,6 +47687,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1530839907
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530839905}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1531745915
 GameObject:
   m_ObjectHideFlags: 0
@@ -46209,6 +48254,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1546180460
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546180457}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1550169388 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -46323,6 +48389,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46330,6 +48400,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1551710659}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1551710660}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1551710657 stripped
 Transform:
@@ -46355,6 +48428,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1551710660
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551710658}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1554096621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47464,6 +49558,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47471,6 +49569,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1601226507}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1601226508}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1601226505 stripped
 Transform:
@@ -47496,6 +49597,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1601226508
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601226506}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1602385527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47772,6 +49894,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47779,6 +49905,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1611690996}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1611690997}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1611690994 stripped
 Transform:
@@ -47804,6 +49933,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1611690997
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611690995}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1613673545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48350,6 +50500,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1631378241
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631378238}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1634591335 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
@@ -48374,6 +50545,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1634591338
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634591335}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1634812900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48739,6 +50931,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1644929787
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644929784}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1645003192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49123,6 +51336,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -49130,6 +51347,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 740577594}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 740577595}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1001 &1651687613
 PrefabInstance:
@@ -49526,6 +51746,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -49533,6 +51757,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1668528836}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1668528837}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1668528834 stripped
 Transform:
@@ -49558,6 +51785,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1668528837
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668528835}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1670960296 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -49916,6 +52164,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -49923,6 +52175,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1679063731}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1679063732}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1679063729 stripped
 Transform:
@@ -49948,6 +52203,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1679063732
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679063730}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1679255377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50932,6 +53208,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -50939,6 +53219,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1139393542}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1139393543}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1001 &1711072790
 PrefabInstance:
@@ -51657,6 +53940,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -51664,6 +53951,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1059111379}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1059111380}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1001 &1733769619
 PrefabInstance:
@@ -51806,6 +54096,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -51813,6 +54107,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 657822346}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 657822347}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1001 &1735481607
 PrefabInstance:
@@ -51946,6 +54243,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1742324723
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742324720}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1743433094 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -52060,6 +54378,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -52067,6 +54389,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1746851820}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1746851821}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1746851818 stripped
 Transform:
@@ -52092,6 +54417,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1746851821
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746851819}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1753110264 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -52143,6 +54489,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1756046090
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756046086}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1760137744 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -52633,6 +55000,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -52640,6 +55011,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1778936685}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1778936686}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1778936683 stripped
 Transform:
@@ -52665,6 +55039,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1778936686
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778936684}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1780329226 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -53101,6 +55496,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -53108,6 +55507,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1797623206}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1797623207}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1797623204 stripped
 Transform:
@@ -53133,6 +55535,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1797623207
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797623205}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1798622953 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -53771,6 +56194,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -53778,6 +56205,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1810325453}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1810325454}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1810325451 stripped
 Transform:
@@ -53803,6 +56233,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1810325454
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810325452}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1819350125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53863,6 +56314,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -53870,6 +56325,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1819350128}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1819350129}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1819350126 stripped
 Transform:
@@ -53895,6 +56353,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1819350129
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819350127}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1820133029 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
@@ -53919,6 +56398,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1820133032
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820133029}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1821330581 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -54179,6 +56679,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -54186,6 +56690,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1829334819}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1829334820}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1829334817 stripped
 Transform:
@@ -54211,6 +56718,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1829334820
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829334818}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1829894235 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -54984,6 +57512,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -54991,6 +57523,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1858080563}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1858080564}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1858080561 stripped
 Transform:
@@ -55016,6 +57551,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1858080564
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858080562}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1858386948 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -55391,6 +57947,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -55398,6 +57958,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1873160835}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1873160836}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1873160833 stripped
 Transform:
@@ -55423,6 +57986,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1873160836
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873160834}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1874337930
 GameObject:
   m_ObjectHideFlags: 0
@@ -55994,6 +58578,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -56001,6 +58589,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1883468040}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1883468041}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1883468038 stripped
 Transform:
@@ -56026,6 +58617,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1883468041
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883468039}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1885469294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56131,6 +58743,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1885666180
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885666177}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1886006326 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -56876,6 +59509,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -56883,6 +59520,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1905511911}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1905511912}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1905511909 stripped
 Transform:
@@ -56908,6 +59548,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1905511912
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905511910}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1908273832 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -57511,6 +60172,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1927908764
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927908761}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1928891485 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -57711,6 +60393,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -57718,6 +60404,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 755672520}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 755672521}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &1944413082 stripped
 GameObject:
@@ -58228,6 +60917,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -58235,6 +60928,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 365392056}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 365392057}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!1 &1969092720 stripped
 GameObject:
@@ -58526,6 +61222,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -58533,6 +61233,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1984809939}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1984809940}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &1984809937 stripped
 Transform:
@@ -58558,6 +61261,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &1984809940
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984809938}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1986295733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59373,6 +62097,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -59380,6 +62108,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2010473392}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2010473393}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &2010473390 stripped
 Transform:
@@ -59405,6 +62136,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &2010473393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010473391}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2013199163
 GameObject:
   m_ObjectHideFlags: 0
@@ -60035,6 +62787,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &2042006080
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042006077}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2042598921
 GameObject:
   m_ObjectHideFlags: 0
@@ -60325,6 +63098,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -60332,6 +63109,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2057823256}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2057823257}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &2057823254 stripped
 Transform:
@@ -60357,6 +63137,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &2057823257
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057823255}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2059845630 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -60787,6 +63588,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      propertyPath: m_TagString
+      value: Cars
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -60794,6 +63599,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2069757430}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2069757431}
   m_SourcePrefab: {fileID: 100100000, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
 --- !u!4 &2069757428 stripped
 Transform:
@@ -60819,6 +63627,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &2069757431
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069757429}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2073689542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62432,6 +65261,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+--- !u!65 &2132811090
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132811087}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2134183660 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}

@@ -20,14 +20,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private TMP_Text scoreDisplay;
     [SerializeField] private float cameraSpeed = 0.5f;
 
-    private int offsetSpeed = 0;
-    private string direction = "";
-
-    private int _currentScore, _highestScore;
-
     private GameObject lastLog;
     private bool reachedLogs = false;
-    public bool movedSinceLog = false;
+    [HideInInspector] public bool movedSinceLog = false;
+
+    private int _currentScore, _highestScore;
     public int CurrentScore
     {
         get
@@ -40,7 +37,7 @@ public class PlayerController : MonoBehaviour
             if (_currentScore > _highestScore)
             {
                 _highestScore = _currentScore;
-                //scoreDisplay.text = "Score: " + _highestScore;
+                scoreDisplay.text = "Score: " + _highestScore;
                 cam.transform.position = new Vector3(0, 20, -5);
                 transform.position = new Vector3(transform.position.x, 0.5f, 0.5f);
                 EnvironmentManager.Instance.MoveTerrain();
@@ -102,7 +99,7 @@ public class PlayerController : MonoBehaviour
             ))
         {
             Debug.Log("Game Over!");
-            //GameManager.Instance.CurrentState = GameState.GameOver;
+            GameManager.Instance.CurrentState = GameState.GameOver;
         }
 
     }
@@ -113,7 +110,7 @@ public class PlayerController : MonoBehaviour
         if (hb != null && hb.isCar)
         {
             Debug.Log("Game Over!");
-            //GameManager.Instance.CurrentState = GameState.GameOver;
+            GameManager.Instance.CurrentState = GameState.GameOver;
         }
     }
 
@@ -128,14 +125,12 @@ public class PlayerController : MonoBehaviour
         {
             if (hit.transform.CompareTag("Right"))
             {
-                direction = "Right";
                 hit.transform.gameObject.GetComponent<HazardBehaviour>().chickenIsOn = true;
                 lastLog = hit.transform.gameObject;
                 reachedLogs = true;
             }
             else if (hit.transform.CompareTag("Left"))
             {
-                direction = "Left";
                 hit.transform.gameObject.GetComponent<HazardBehaviour>().chickenIsOn = true;
                 lastLog = hit.transform.gameObject;
                 reachedLogs = true;

@@ -21,18 +21,18 @@ public class UIController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         if(SceneManager.GetActiveScene().name == "Menu" || SceneManager.GetActiveScene().name == "Credits")
         {
             GameManager.Instance.CurrentState = GameState.Menu;
+
+
+            sfxSlider.value = GameManager.Instance.sfxVolume;
+            musicSlider.value = GameManager.Instance.musicVolume;
+            fullscreenToggle.isOn = GameManager.Instance.hasFullscreen;
+
+            scoreText.text = "Recent Score: " + GameManager.Instance.RecentScore;
+            highscoreText.text = "Highscore: " + PlayerPrefs.GetInt("Highscore");
         }
-
-        GameManager.Instance.uiController = this;
-
-
-        sfxSlider.value = GameManager.Instance.sfxVolume;
-        musicSlider.value = GameManager.Instance.musicVolume;
-        fullscreenToggle.isOn = GameManager.Instance.hasFullscreen;
 
     }
 
@@ -46,38 +46,31 @@ public class UIController : MonoBehaviour
 
     public void OnClickPlay()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("GameScene"); 
+        GameManager.Instance.CurrentState = GameState.Playing;
     }
 
     public void OnClickOptions()
     {
-        //GameManager.Instance.PauseGame();
+        GameManager.Instance.CurrentState = GameState.Paused;
     }
 
     public void OnClickCredits()
     {
         SceneManager.LoadScene("Credits");
+        GameManager.Instance.CurrentState = GameState.Menu;
     }
 
     public void OnClickMenu()
     {
         SceneManager.LoadScene("Menu");
+        GameManager.Instance.CurrentState = GameState.Menu;
     }
 
     public void OnClickQuit()
     {
         Application.Quit();
         Debug.Log("Is quitting...");
-    }
-
-    public void UpdateScore()
-    {
-
-    }
-
-    public void UpdateHighscore()
-    {
-
     }
 
     //Settings

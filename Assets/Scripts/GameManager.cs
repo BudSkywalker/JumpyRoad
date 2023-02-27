@@ -6,6 +6,7 @@ using UnityEngine.Audio;
 
 public class GameManager : MonoBehaviour
 {
+    public int RecentScore { get; private set; }
     private GameState _state;
     public GameState CurrentState
     {
@@ -20,27 +21,35 @@ public class GameManager : MonoBehaviour
             switch(CurrentState)
             {
                 case GameState.Menu:
-
+                    Time.timeScale = 1f;
                     break;
                 case GameState.Playing:
-
+                    StartCoroutine(FindGameOverPanel());
+                    Time.timeScale = 1f;
                     break;
                 case GameState.Paused:
-
+                    Time.timeScale = 0f;
                     break;
                 case GameState.GameOver:
-
+                    Time.timeScale = 0f;
+                    RecentScore = FindObjectOfType<PlayerController>().HighestScore;
+                    gameOverPanel.SetActive(true);
+                    if (RecentScore > PlayerPrefs.GetInt("Highscore"))
+                    {
+                        PlayerPrefs.SetInt("Highscore", RecentScore);
+                    }
                     break;
-                default: break;
+                default: 
+                    break;
             }
         }
     }
 
-    public UIController uiController;
-
     public float musicVolume = 0.55f;
     public float sfxVolume = 0.55f;
     public bool hasFullscreen = true;
+
+    private GameObject gameOverPanel;
 
     //Singleton
     public static GameManager Instance { get; private set; }
@@ -55,6 +64,17 @@ public class GameManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(this);
         }
+    }
+
+    IEnumerator FindGameOverPanel()
+    {
+        while(!gameOverPanel)
+        {
+            gameOverPanel = GameObject.Find("Game Over Panel");
+            yield return new WaitForEndOfFrame();
+        }
+        
+        gameOverPanel.SetActive(false);
     }
 }
 

@@ -56,26 +56,51 @@ public class HazardManager : MonoBehaviour
     //Randomize which spawns are active
     public void ChooseActiveSpawners()
     {
-        int randomNum = 0;
         int randomSpeed = 0;
 
-        for(int x = 0; x < rightSpawners.Count; x++)
+        if (isARoad)
         {
-            randomNum = Random.Range(0, 2);
-            randomSpeed = Random.Range(3, 5);
-            if (randomNum == 0)
+            int randomNum = 0;
+
+            for (int x = 0; x < rightSpawners.Count; x++)
             {
-                //Right side is active
-                rightSpawners[x].SetActive(true);
-                leftSpawners[x].SetActive(false);
-                rightSpawners[x].GetComponent<HazardSpawner>().speed = randomSpeed;
+                randomNum = Random.Range(0, 2);
+                if (randomNum == 0)
+                {
+                    //Right side is active
+                    rightSpawners[x].SetActive(true);
+                    leftSpawners[x].SetActive(false);
+                }
+                else
+                {
+                    //Left side is active
+                    rightSpawners[x].SetActive(false);
+                    leftSpawners[x].SetActive(true);
+                }
             }
-            else
+        }
+        else
+        {
+            bool right = true;
+            for (int x = 0; x < rightSpawners.Count; x++)
             {
-                //Left side is active
-                rightSpawners[x].SetActive(false);
-                leftSpawners[x].SetActive(true);
-                leftSpawners[x].GetComponent<HazardSpawner>().speed = randomSpeed;
+                randomSpeed = Random.Range(3, 5);
+                if (right)
+                {
+                    //Left side is active
+                    rightSpawners[x].SetActive(false);
+                    leftSpawners[x].SetActive(true);
+                    leftSpawners[x].GetComponent<HazardSpawner>().speed = randomSpeed;
+                    right = false;
+                }
+                else
+                {
+                    //Right side active
+                    rightSpawners[x].SetActive(true);
+                    leftSpawners[x].SetActive(false);
+                    rightSpawners[x].GetComponent<HazardSpawner>().speed = randomSpeed;
+                    right = true;
+                }
             }
         }
 

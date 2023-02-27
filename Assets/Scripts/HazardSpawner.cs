@@ -60,7 +60,7 @@ public class HazardSpawner : MonoBehaviour
     {
         beginSpawning = false;
         hazardManager.SpawnHazard(gameObject, right, left, speed);
-        yield return new WaitForSeconds(Random.Range(1, 3));
+        yield return new WaitForSeconds(Random.Range(2, 4));
         beginSpawning = true;
     }
 }

@@ -22,13 +22,13 @@ public class HazardBehaviour : MonoBehaviour
     private bool startLogMove = true;
     private GameObject player;
 
-    private void Start()
+    private void OnEnable()
     {
         hazardManager = transform.parent.GetComponent<HazardManager>();
         //checkDistance = carManager.despawnDistance;
         logTimeToMove = logSpeed * 0.1f;
         player = GameObject.FindGameObjectWithTag("Player");
-
+        startLogMove = true;
     }
 
     // Update is called once per frame

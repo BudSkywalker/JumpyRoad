@@ -100,7 +100,7 @@ public class HazardBehaviour : MonoBehaviour
         bool canMovePlayer = player.GetComponent<PlayerController>().movedSinceLog;
         if (canMovePlayer == false)
         {
-            if (chickenIsOn == true)
+            if (chickenIsOn == true && transform.position.x > -6)
             {
                 player.transform.position = player.transform.position - new Vector3(1, 0, 0);
             }
@@ -117,7 +117,7 @@ public class HazardBehaviour : MonoBehaviour
         bool canMovePlayer = player.GetComponent<PlayerController>().movedSinceLog;
         if (canMovePlayer == false)
         {
-            if (chickenIsOn == true)
+            if (chickenIsOn == true && transform.position.x < 6)
             {
                 player.transform.position = player.transform.position + new Vector3(1, 0, 0);
             }

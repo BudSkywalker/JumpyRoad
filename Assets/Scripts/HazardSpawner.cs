@@ -28,16 +28,32 @@ public class HazardSpawner : MonoBehaviour
     {
         if(beginSpawning && hazardManager.managerIsReady)
         {
-            StartCoroutine(ReadySpawnHazard());
+            if(hazardManager.isARoad)
+            {
+                StartCoroutine(ReadySpawnCar());
+            }
+            else
+            {
+                StartCoroutine(ReadySpawnLog());
+            }
+            
         }
         
     }
 
-    IEnumerator ReadySpawnHazard()
+    IEnumerator ReadySpawnCar()
     {
         beginSpawning = false;
         hazardManager.SpawnHazard(gameObject, right, left, speed);
         yield return new WaitForSeconds(Random.Range(1, 4));
+        beginSpawning = true;
+    }
+
+    IEnumerator ReadySpawnLog()
+    {
+        beginSpawning = false;
+        hazardManager.SpawnHazard(gameObject, right, left, speed);
+        yield return new WaitForSeconds(Random.Range(1, 3));
         beginSpawning = true;
     }
 }

@@ -12,12 +12,12 @@ public class HazardManager : MonoBehaviour
     [SerializeField] Transform hazardPoolObject;
 
     public bool managerIsReady = false;
-    public bool isCarManager;
+    public bool isARoad = false;
 
     private void Start()
     {
 
-        //Grab all the cars in the car pool and set them inactive by default
+        //Grab all hazards in the hazard pool and set them inactive by default
         foreach(Transform hazard in hazardPoolObject)
         {
             hazard.gameObject.SetActive(false);
@@ -32,6 +32,15 @@ public class HazardManager : MonoBehaviour
         foreach (GameObject spawner in leftSpawners)
         {
             spawner.SetActive(false);
+        }
+
+        if (gameObject.CompareTag("Road"))
+        {
+            isARoad = true;
+        }
+        else
+        {
+            isARoad = false;
         }
 
         ChooseActiveSpawners();

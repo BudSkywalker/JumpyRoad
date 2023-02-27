@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -300,6 +300,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1688255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -396,6 +398,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &2892007
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -573,6 +577,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &7724269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -669,6 +675,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &7779009
 GameObject:
   m_ObjectHideFlags: 0
@@ -761,6 +769,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &8228838
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -878,6 +888,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &14155103
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1406,6 +1418,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &26687950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2023,6 +2037,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &45827747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2119,6 +2135,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &49742190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2804,6 +2822,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &73490144
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3686,6 +3706,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &92832331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3830,6 +3852,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &101980756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4879,6 +4903,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &142964139
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5110,6 +5136,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &156660144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5416,6 +5444,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &184668956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5671,6 +5701,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &189192396
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6069,6 +6101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &195140964
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6402,6 +6436,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &210345925 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -6555,6 +6591,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &212362495
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6702,6 +6740,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &213396375
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6914,6 +6954,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &217173470 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -7172,6 +7214,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &229402338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7271,6 +7315,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &229402342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7550,6 +7596,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &238876866 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -7893,6 +7941,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &245846176
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8338,6 +8388,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &276555389
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8599,6 +8651,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &287273811
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8719,6 +8773,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &288418008
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9129,6 +9185,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &301863879
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9638,6 +9696,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &327177462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9815,6 +9875,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &336040348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10495,6 +10557,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &353198427
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10615,6 +10679,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &354329190
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10897,6 +10963,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &358370893
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11091,6 +11159,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &365392057
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13158,6 +13228,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &439569662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13257,6 +13329,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &439569666
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13401,6 +13475,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &445351958 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -13551,6 +13627,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &454622059 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -13674,6 +13752,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &458142324
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13878,6 +13958,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &462493016
 GameObject:
   m_ObjectHideFlags: 0
@@ -14162,6 +14244,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &462852210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15306,6 +15390,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &507038791
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15798,6 +15884,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &516787938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16451,6 +16539,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &549079266
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16928,6 +17018,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &564213360
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17302,6 +17394,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &581197369 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -17938,6 +18032,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &610601594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18034,6 +18130,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &610824172
 GameObject:
   m_ObjectHideFlags: 0
@@ -18228,6 +18326,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &611194943
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18629,6 +18729,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &618199992 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -19270,6 +19372,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &636009521
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19760,6 +19864,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &642870293
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20284,6 +20390,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &657149166
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20416,6 +20524,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &657822347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20533,6 +20643,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &660389884 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -21092,6 +21204,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &673835590
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22585,7 +22699,7 @@ GameObject:
   - component: {fileID: 723692380}
   m_Layer: 0
   m_Name: PlayerCharFORSCALE
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22623,6 +22737,7 @@ MonoBehaviour:
     m_Bits: 256
   scoreDisplay: {fileID: 0}
   cameraSpeed: 0.5
+  movedSinceLog: 0
 --- !u!65 &723692379
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23010,6 +23125,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &732445859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23187,6 +23304,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &740577592 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
@@ -23211,6 +23330,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &740577595
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23716,6 +23837,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &755672521
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23917,6 +24040,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &781191657
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24034,6 +24159,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &783199213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24130,6 +24257,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &784076354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24473,6 +24602,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &791054559
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24674,6 +24805,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &792817496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24821,6 +24954,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &793427318
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24995,6 +25130,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &803449273
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26287,6 +26424,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &839704236
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26940,6 +27079,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &859268154
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27547,6 +27688,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &867876997
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27748,6 +27891,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &871247544
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27868,6 +28013,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &872199510
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28448,6 +28595,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &889381677
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28568,6 +28717,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &891323626
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28796,6 +28947,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &895630050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28913,6 +29066,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &899653268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29174,6 +29329,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &902535712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29758,6 +29915,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &916384623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30273,6 +30432,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &930436176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30372,6 +30533,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &930436180
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30489,6 +30652,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &935312028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30669,6 +30834,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &939818134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31484,6 +31651,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &974584426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31661,6 +31830,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &984239598 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -32281,6 +32452,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1003145573
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32563,6 +32736,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1008005050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32910,6 +33085,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1014167785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33198,6 +33375,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1021662257
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33933,6 +34112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1057376028
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34206,6 +34387,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1059111377 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
@@ -34230,6 +34413,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1059111380
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34520,6 +34705,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1061229052
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34637,6 +34824,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1071764664 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -34760,6 +34949,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1073284702 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
@@ -34784,6 +34975,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1073284705
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35655,6 +35848,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1102355194
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36266,6 +36461,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1127053483 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -36554,6 +36751,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1139393543
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36752,6 +36951,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1145145571 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -36905,6 +37106,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1160760569
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37303,6 +37506,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1170563362 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -38536,6 +38741,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1213068452
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38910,6 +39117,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1223856121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39087,6 +39296,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1225562782 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -39366,6 +39577,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1234069752 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -39471,6 +39684,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1244965244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39872,6 +40087,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1254958953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40219,6 +40436,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1261804031 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -40426,6 +40645,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1270747474
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40855,6 +41076,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1298064492
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41242,6 +41465,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1315269025 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -41446,6 +41671,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1319172573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42685,6 +42912,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1360954284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42919,6 +43148,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1371055349
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43379,6 +43610,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1389829409
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43499,6 +43732,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1393662120
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44173,6 +44408,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1412103165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44886,6 +45123,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1434369468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45207,6 +45446,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1445986169
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45324,6 +45565,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1448998993
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45731,6 +45974,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1466526148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45935,6 +46180,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1478779826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46220,6 +46467,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1482943731
 GameObject:
   m_ObjectHideFlags: 0
@@ -46445,6 +46694,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1492302641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46625,6 +46876,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1495890377
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46745,6 +46998,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1498390145
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46862,6 +47117,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1504202247
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46961,6 +47218,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1504202251
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47078,6 +47337,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1506503294 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -47380,6 +47641,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1516147594
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47500,6 +47763,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1519312745
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47796,6 +48061,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1530839907
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47981,6 +48248,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1534116482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48239,6 +48508,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1541759412 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -48371,6 +48642,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1546180460
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48545,6 +48818,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1551710660
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48770,6 +49045,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1564660399 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -49474,6 +49751,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1599361440
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49722,6 +50001,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1601226508
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50058,6 +50339,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1611690997
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50175,6 +50458,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1614449079
 GameObject:
   m_ObjectHideFlags: 0
@@ -50447,6 +50732,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1628122450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50633,6 +50920,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1631378241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50678,6 +50967,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1634591338
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50952,6 +51243,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1643951773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51048,6 +51341,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1644929784 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 224e805884175514682a8c9f45d0a01f, type: 3}
@@ -51072,6 +51367,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1644929787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51764,6 +52061,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1661023374 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -51998,6 +52297,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1668528837
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52348,6 +52649,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1679063732
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52465,6 +52768,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1680219286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52920,6 +53225,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1692206200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53286,6 +53593,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1700511053
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53619,6 +53928,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1712791692 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -53769,6 +54080,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1718153771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54619,6 +54932,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1742324723
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54793,6 +55108,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1746851821
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54933,6 +55250,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1756046090
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55212,6 +55531,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1769315597
 GameObject:
   m_ObjectHideFlags: 0
@@ -55623,6 +55944,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1778936686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55848,6 +56171,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1793549513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56055,6 +56380,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1797623207
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56658,6 +56985,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1810325450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56757,6 +57086,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1810325454
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56945,6 +57276,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1819350129
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56990,6 +57323,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1820133032
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57134,6 +57469,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1827339011
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57314,6 +57651,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1829334820
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57526,6 +57865,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1833654154 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -58355,6 +58696,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1858080564
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58695,6 +59038,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1871074759
 GameObject:
   m_ObjectHideFlags: 0
@@ -58937,6 +59282,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1873160836
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59365,6 +59712,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1882122163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59572,6 +59921,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1883468041
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59698,6 +60049,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1885666180
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59842,6 +60195,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1890018530 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -60208,6 +60563,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1905188620
 GameObject:
   m_ObjectHideFlags: 0
@@ -60375,6 +60732,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1905511912
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60546,6 +60905,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &1912836096 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -60867,6 +61228,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1927908764
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61402,6 +61765,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1964611261
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61892,6 +62257,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &1984809940
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62185,6 +62552,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1997719304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62281,6 +62650,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &1999537063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62450,6 +62821,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &2004833751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62711,6 +63084,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &2010473393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63247,6 +63622,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &2041618624 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -63298,6 +63675,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &2042006080
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63648,6 +64027,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &2057823257
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64070,6 +64451,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &2069757431
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64349,6 +64732,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &2085078139
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64445,6 +64830,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &2085633147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64541,6 +64928,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &2090564132 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -64961,6 +65350,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &2104673319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65395,6 +65786,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1 &2125239719 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7421033346236238759, guid: c90a371dee3a70e498d3199852eae077, type: 3}
@@ -65649,6 +66042,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 1
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!65 &2132811090
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65793,6 +66188,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &2139323626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66078,6 +66475,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0
 --- !u!1001 &4357471885895377937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66174,3 +66573,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logSpeed: 4
   isCar: 0
+  chickenIsOn: 0
+  logTimeToMove: 0

@@ -24,8 +24,12 @@ public class PlayerController : MonoBehaviour
     private string direction = "";
 
     private int _currentScore, _highestScore;
-    public int CurrentScore 
-    { 
+
+    private GameObject lastLog;
+    private bool reachedLogs = false;
+    public bool movedSinceLog = false;
+    public int CurrentScore
+    {
         get
         {
             return _currentScore;
@@ -33,7 +37,7 @@ public class PlayerController : MonoBehaviour
         private set
         {
             _currentScore = value;
-            if(_currentScore > _highestScore)
+            if (_currentScore > _highestScore)
             {
                 _highestScore = _currentScore;
                 //scoreDisplay.text = "Score: " + _highestScore;
@@ -59,6 +63,7 @@ public class PlayerController : MonoBehaviour
             if (Physics.OverlapBox(transform.position + Vector3.forward, Vector3.one / 2, Quaternion.identity, obstacles).Length == 0)
             {
                 transform.position += Vector3.forward;
+                MoveChecker();
                 CurrentScore++;
             }
             CheckForLog();
@@ -68,24 +73,26 @@ public class PlayerController : MonoBehaviour
             if (Physics.OverlapBox(transform.position + Vector3.back, Vector3.one / 2, Quaternion.identity, obstacles).Length == 0)
             {
                 transform.position += Vector3.back;
+                MoveChecker();
                 CurrentScore--;
             }
             CheckForLog();
         }
         else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            if(Physics.OverlapBox(transform.position + Vector3.left, Vector3.one / 2, Quaternion.identity, obstacles).Length == 0 && transform.position.x > -6) transform.position += Vector3.left;
+            if (Physics.OverlapBox(transform.position + Vector3.left, Vector3.one / 2, Quaternion.identity, obstacles).Length == 0 && transform.position.x > -6) transform.position += Vector3.left;
+            MoveChecker();
             CheckForLog();
         }
         else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
             if (Physics.OverlapBox(transform.position + Vector3.right, Vector3.one / 2, Quaternion.identity, obstacles).Length == 0 && transform.position.x < 6) transform.position += Vector3.right;
+            MoveChecker();
             CheckForLog();
         }
 
         cam.transform.position += cameraSpeed * Time.deltaTime * Vector3.forward;
         CheckForLog();
-        OffsetPlayer();
 
         //Test Game Over States
         Collider[] underMeColliders = Physics.OverlapBox(transform.position + Vector3.down, Vector3.one);
@@ -112,41 +119,36 @@ public class PlayerController : MonoBehaviour
 
     private void CheckForLog()
     {
+        if (reachedLogs == true)
+        {
+            lastLog.GetComponent<HazardBehaviour>().chickenIsOn = false;
+        }
         RaycastHit hit;
         if (Physics.Raycast(transform.position, Vector3.down, out hit, 4, obstacles))
         {
-            if(hit.transform.CompareTag("Right"))
+            if (hit.transform.CompareTag("Right"))
             {
                 direction = "Right";
-                offsetSpeed = hit.transform.GetComponent<HazardBehaviour>().logSpeed;
+                hit.transform.gameObject.GetComponent<HazardBehaviour>().chickenIsOn = true;
+                lastLog = hit.transform.gameObject;
+                reachedLogs = true;
             }
-            else if(hit.transform.CompareTag("Left"))
+            else if (hit.transform.CompareTag("Left"))
             {
                 direction = "Left";
-                offsetSpeed = hit.transform.GetComponent<HazardBehaviour>().logSpeed;
+                hit.transform.gameObject.GetComponent<HazardBehaviour>().chickenIsOn = true;
+                lastLog = hit.transform.gameObject;
+                reachedLogs = true;
             }
         }
-        else
-        {
-            direction = "";
-            offsetSpeed = 0;
-        }
+
     }
 
-    private void OffsetPlayer()
+    private void MoveChecker()
     {
-        if (direction == "Right")
+        if (reachedLogs == true)
         {
-            transform.Translate(Vector3.right * Time.deltaTime * offsetSpeed);
+            movedSinceLog = true;
         }
-        else if (direction == "Left")
-        {
-            transform.Translate(Vector3.left * Time.deltaTime * offsetSpeed);
-        }
-        else
-        {
-            
-        }
-
     }
 }

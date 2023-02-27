@@ -17,18 +17,29 @@ public class HazardBehaviour : MonoBehaviour
     public bool isCar;
     HazardManager hazardManager;
     private float checkDistance = 8;
+    public bool chickenIsOn = false;
+    public float logTimeToMove = 0;
+    private bool startLogMove = true;
+    private GameObject player;
 
-    private void Start()
+    private void OnEnable()
     {
         hazardManager = transform.parent.GetComponent<HazardManager>();
         //checkDistance = carManager.despawnDistance;
+        logTimeToMove = logSpeed * 0.1f;
+        player = GameObject.FindGameObjectWithTag("Player");
+        startLogMove = true;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (chickenIsOn)
+        {
+            print("CHICKEN DETECTED");
+        }
         //Check if the hazard is a log or a car
-        if(isCar)
+        if (isCar)
         {
             if (gameObject.CompareTag("Left"))
             {
@@ -45,28 +56,73 @@ public class HazardBehaviour : MonoBehaviour
                 {
                     hazardManager.RemoveHazard(gameObject);
                 }
+
             }
         }
         else
         {
             if (gameObject.CompareTag("Left"))
             {
-                transform.Translate(Vector3.left * Time.deltaTime * logSpeed);
+                //  transform.Translate(Vector3.left * Time.deltaTime * logSpeed);
                 if (-checkDistance > transform.position.x && hazardManager != null)
                 {
                     hazardManager.RemoveHazard(gameObject);
                 }
+                else if (startLogMove == true)
+                {
+                    StartCoroutine(MoveLogLeft());
+                }
+
             }
             else
             {
-                transform.Translate(Vector3.right * Time.deltaTime * logSpeed);
+                // transform.Translate(Vector3.right * Time.deltaTime * logSpeed);
                 if (checkDistance < transform.position.x && hazardManager != null)
                 {
                     hazardManager.RemoveHazard(gameObject);
                 }
+                else if (startLogMove == true)
+                {
+                    StartCoroutine(MoveLogRight());
+                }
+
             }
         }
-        
 
+
+    }
+
+    private IEnumerator MoveLogLeft()
+    {
+        startLogMove = false;
+        yield return new WaitForSeconds(logTimeToMove);
+        transform.position = transform.position - new Vector3(1, 0, 0);
+        bool canMovePlayer = player.GetComponent<PlayerController>().movedSinceLog;
+        if (canMovePlayer == false)
+        {
+            if (chickenIsOn == true && transform.position.x > -6)
+            {
+                player.transform.position = player.transform.position - new Vector3(1, 0, 0);
+            }
+        }
+        player.GetComponent<PlayerController>().movedSinceLog = false;
+        startLogMove = true;
+    }
+
+    private IEnumerator MoveLogRight()
+    {
+        startLogMove = false;
+        yield return new WaitForSeconds(logTimeToMove);
+        transform.position = transform.position + new Vector3(1, 0, 0);
+        bool canMovePlayer = player.GetComponent<PlayerController>().movedSinceLog;
+        if (canMovePlayer == false)
+        {
+            if (chickenIsOn == true && transform.position.x < 6)
+            {
+                player.transform.position = player.transform.position + new Vector3(1, 0, 0);
+            }
+        }
+        player.GetComponent<PlayerController>().movedSinceLog = false;
+        startLogMove = true;
     }
 }

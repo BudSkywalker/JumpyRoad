@@ -2,6 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//////////////////////////////////////////////
+//Assignment/Lab/Project: Jumpy Street
+//Name: Joel Hill
+//Section: 2023SP.SGD.285.4171
+//Instructor: Aurore Locklear
+/////////////////////////////////////////////
+///
 public class HazardSpawner : MonoBehaviour
 {
     bool left, right = false;

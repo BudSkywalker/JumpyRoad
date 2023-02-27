@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+//////////////////////////////////////////////
+//Assignment/Lab/Project: Jumpy Street
+//Name: Joel Hill
+//Section: 2023SP.SGD.285.4171
+//Instructor: Aurore Locklear
+/////////////////////////////////////////////
+///
 public class HazardBehaviour : MonoBehaviour
 {
     private int carSpeed = 5;

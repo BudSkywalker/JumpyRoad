@@ -20,6 +20,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private TMP_Text scoreDisplay;
     [SerializeField] private float cameraSpeed = 0.5f;
 
+    private int offsetSpeed = 0;
+    private string direction = "";
+
     private int _currentScore, _highestScore;
     public int CurrentScore 
     { 
@@ -35,7 +38,7 @@ public class PlayerController : MonoBehaviour
                 _highestScore = _currentScore;
                 //scoreDisplay.text = "Score: " + _highestScore;
                 cam.transform.position = new Vector3(0, 20, -5);
-                transform.position = new Vector3(transform.position.x, 0.5f, 0);
+                transform.position = new Vector3(transform.position.x, 0.5f, 0.5f);
                 EnvironmentManager.Instance.MoveTerrain();
             }
         }
@@ -58,6 +61,7 @@ public class PlayerController : MonoBehaviour
                 transform.position += Vector3.forward;
                 CurrentScore++;
             }
+            CheckForLog();
         }
         else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
@@ -66,17 +70,22 @@ public class PlayerController : MonoBehaviour
                 transform.position += Vector3.back;
                 CurrentScore--;
             }
+            CheckForLog();
         }
         else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
             if(Physics.OverlapBox(transform.position + Vector3.left, Vector3.one / 2, Quaternion.identity, obstacles).Length == 0 && transform.position.x > -6) transform.position += Vector3.left;
+            CheckForLog();
         }
         else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
             if (Physics.OverlapBox(transform.position + Vector3.right, Vector3.one / 2, Quaternion.identity, obstacles).Length == 0 && transform.position.x < 6) transform.position += Vector3.right;
+            CheckForLog();
         }
 
         cam.transform.position += cameraSpeed * Time.deltaTime * Vector3.forward;
+        CheckForLog();
+        OffsetPlayer();
 
         //Test Game Over States
         Collider[] underMeColliders = Physics.OverlapBox(transform.position + Vector3.down, Vector3.one);
@@ -86,8 +95,9 @@ public class PlayerController : MonoBehaviour
             ))
         {
             Debug.Log("Game Over!");
-            GameManager.Instance.CurrentState = GameState.GameOver;
+            //GameManager.Instance.CurrentState = GameState.GameOver;
         }
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -96,7 +106,47 @@ public class PlayerController : MonoBehaviour
         if (hb != null && hb.isCar)
         {
             Debug.Log("Game Over!");
-            GameManager.Instance.CurrentState = GameState.GameOver;
+            //GameManager.Instance.CurrentState = GameState.GameOver;
         }
+    }
+
+    private void CheckForLog()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, 4, obstacles))
+        {
+            if(hit.transform.CompareTag("Right"))
+            {
+                direction = "Right";
+                offsetSpeed = hit.transform.GetComponent<HazardBehaviour>().logSpeed;
+            }
+            else if(hit.transform.CompareTag("Left"))
+            {
+                direction = "Left";
+                offsetSpeed = hit.transform.GetComponent<HazardBehaviour>().logSpeed;
+            }
+        }
+        else
+        {
+            direction = "";
+            offsetSpeed = 0;
+        }
+    }
+
+    private void OffsetPlayer()
+    {
+        if (direction == "Right")
+        {
+            transform.Translate(Vector3.right * Time.deltaTime * offsetSpeed);
+        }
+        else if (direction == "Left")
+        {
+            transform.Translate(Vector3.left * Time.deltaTime * offsetSpeed);
+        }
+        else
+        {
+            
+        }
+
     }
 }

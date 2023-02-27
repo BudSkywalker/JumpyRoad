@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
+//////////////////////////////////////////////
+//Assignment/Lab/Project: Jumpy Street
+//Name: Joel Hill
+//Section: 2023SP.SGD.285.4171
+//Instructor: Aurore Locklear
+/////////////////////////////////////////////
+
 public class HazardManager : MonoBehaviour
 {
     [SerializeField] List<GameObject> rightSpawners = new List<GameObject>();

@@ -92,7 +92,11 @@ public class PlayerController : MonoBehaviour
         CheckForLog();
 
         //Test Game Over States
-        Collider[] underMeColliders = Physics.OverlapBox(transform.position + Vector3.down, Vector3.one);
+        Collider[] underMeColliders = Physics.OverlapBox(transform.position + Vector3.down, new Vector3(0.65f, 1f, 0.5f));
+        foreach(Collider c in underMeColliders)
+        {
+            Debug.Log(c);
+        }
         if (cam.transform.position.z + 2.15f >= transform.position.z || (
             //Water
             underMeColliders.Any(x => x.CompareTag("Water")) && !underMeColliders.Any(x => x.CompareTag("Left") || x.CompareTag("Right"))

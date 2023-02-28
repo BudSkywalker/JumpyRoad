@@ -164,20 +164,7 @@ public class EnvironmentManager : MonoBehaviour
             unitsDown = unitsDown + 7;
             unusedTiles.RemoveAt(j);
 
-            //ORIGINAL WAY
-            /*bool anotherActivated = false;
-            while(anotherActivated == false) //for loop and list
-            {
-                int j = Random.Range(0, environmentPlanes.Length);   
-                if (environmentPlanes[j].gameObject.activeInHierarchy == false)  //need to remove from options by remove at 
-                {
-                 environmentPlanes[j].gameObject.transform.position = new Vector3(environmentPlanes[j].gameObject.transform.position.x, environmentPlanes[i].gameObject.transform.position.y, environmentPlanes[i].gameObject.transform.position.z - unitsDown);
-                 environmentPlanes[j].gameObject.SetActive(true);
-                 unitsDown = unitsDown + 7; //MAGIC NUMBER based on size of planes
-                 anotherActivated = true;
-                }
-            }
-            */
+            
 
         }
     }
